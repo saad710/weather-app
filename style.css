@@ -1,0 +1,30 @@
+body{
+    background-color:black;
+    font-family: 'Bubblegum Sans', cursive !important;
+}
+.input{
+    width:350px;
+}
+#input-value{
+    margin-top: 40px; 
+    background-color:blanchedalmond;
+}
+.card{
+    width:350px;
+    height:420px;
+    margin-top: 40px; 
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #c5c5ff;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    background-color: sandybrown;
+    color:black;
+}
+#button{
+    margin-top: 40px;
+}
+.main{
+    display: flex;
+    justify-content:center ;
+}

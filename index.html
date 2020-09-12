@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather-application</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Bubblegum+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section>
+       <div class="main">
+        <div class="input">
+            <input type="text" id="input-value" class="form-control" placeholder="Searching for city...">
+        </div>
+        <div>
+            <button id="button" class="btn btn-info">Search</button>
+        </div>
+       </div>
+    </section>
+
+    <section>
+    <div class="d-flex justify-content-center">
+        <div class="card ">
+            <h1 id="place" style="text-align: center;">  Northampton, GB</h1>
+            <h5 id="date" style="text-align: center;">Thursday 10 January, 2020</h5>
+            <br>
+            <p id="temperature" style="font-size:80px; margin:0 100px;">15 <span style="float:right";>°c</span> </p>
+            <br>
+            <h1 id="weather-type" style="text-align: center;">Sunny</h1>
+            <h2 id="minmax" style="text-align: center;">13°c/16°c</h2>
+        </div>
+    </div> 
+    </section>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
